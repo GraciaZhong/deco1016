@@ -1,0 +1,989 @@
+*{
+  margin:0;
+  padding:0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* <!-- Typography --> */
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Jomolhari|Yeon+Sung&display=swap');
+
+/* 1st page */
+
+.title{
+  margin-left: 0px;
+  width: 80%;
+  height: 100%;
+  background: #fff;
+}
+.header ul{
+  display: inline-flex;
+  margin:51px;
+}
+.header ul li{
+  list-style: none;
+  margin:0 420px;
+  cursor:pointer;
+  font-family:  'Yeon Sung',cursive;
+}
+
+.logo{
+  font-size: 4em;
+  color: #b87676;
+}
+.signup-bt1{
+  top: 70px;
+  right: 580px;
+  position: absolute;
+  color: #EBE4E4;
+  border: 1px;
+  border-radius: 100px;
+  background: #CB5E5E;
+}
+.signup-bt1 span{
+  display: block;
+  padding: 8px;
+  font-size: 2em;
+}
+.signup-bt2{
+  top: 220px;
+  right: 300px;
+  position: absolute;
+  color: #EBE4E4;
+  border: 1px;
+  height: 95px;
+  width: 95px;
+  border-radius: 50%;
+  background: #CB5E5E;
+}
+.signup-bt2 span{
+  display: block;
+  padding: 5px;
+  padding-top: 30px;
+  font-size: 23px;
+}
+.signup-bt3{
+  top: 1000px;
+  right: 200px;
+  position: absolute;
+  color: #EBE4E4;
+  border: 1px;
+  height: 105px;
+  width: 105px;
+  border-radius: 50%;
+  background: #CB5E5E;
+}
+.signup-bt3 span{
+  display: block;
+  padding: 5px;
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+.signup-bt4{
+  top: 220px;
+  right: 45%;
+  position: absolute;
+  color: #EBE4E4;
+  border: 3px;
+  height: 65px;
+  width: 255px;
+  border-radius: 40%;
+  background: #CB5E5E;
+}
+.signup-bt4 span{
+  display: block;
+  padding: 2px;
+  padding-top: 10px;
+  font-size: 35px;
+}
+
+.signup-bt5{
+  top: 1380px;
+  right: 15%;
+  position: absolute;
+  color: #EBE4E4;
+  border: 3px;
+  height: 65px;
+  width: 175px;
+  border-radius: 40px;
+  background: #CB5E5E;
+}
+.signup-bt5 span{
+  display: block;
+  padding: 2px;
+  padding-top: 10px;
+  font-size: 35px;
+}
+.signup-bt6{
+  top: 1320px;
+  right: 25%;
+  position: absolute;
+  color: #EBE4E4;
+  border: 3px;
+  height: 65px;
+  width: 235px;
+  border-radius: 40px;
+  background: #CB5E5E;
+}
+.signup-bt6 span{
+  display: block;
+  padding: 2px;
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+.signup-bt7{
+  top:450px;
+  right: 25%;
+  position: absolute;
+  color: #EBE4E4;
+  border: 3px;
+  height: 65px;
+  width: 235px;
+  border-radius: 40px;
+  background: #CB5E5E;
+}
+.signup-bt7 span{
+  display: block;
+  padding: 2px;
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+
+.login{
+  top: 80px;
+  right: 50px;
+  position: absolute;
+  color: #c5bfc3;
+  font-size: 2em;
+}
+.login span{
+  color: #707070
+}
+
+.ad{
+  background-color: rgb(226, 226, 226);
+  width: 70%;
+  margin-left: 15%;
+  margin-top: -48px;
+  border-top: 6px solid #9B9191;
+}
+
+.ad-img{
+  max-width: 90%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 5%;
+}
+.ad-text-img{
+  max-width: 100%;
+  margin-top: -1000px;
+  margin-bottom: 100px;
+  margin-left: 15%;
+}
+.ad-text ul li{
+  color: #C6BEBE;
+  margin-left: 67%;
+  margin-top: -150px;
+  font-size: 3em;
+}
+.ad-text-1{
+  margin-top: -300px;
+  position: absolute;
+  border:1px;
+  background-color: #707070;
+  border-radius: 15px;
+}
+.ad-text-1 span{
+  margin-right: 33px;
+  display: block;
+  padding: 8px;
+}
+.ad-text-2{
+  margin-top: -200px;
+  position: absolute;
+  border:1px;
+  background-color: #707070;
+  border-radius: 15px;
+}
+.ad-text-2 span{
+  display: block;
+  padding: 8px;
+}
+.ad-text-3{
+  margin-top: -100px;
+  position: absolute;
+  border:1px;
+  background-color: #707070;
+  border-radius: 15px;
+}
+.ad-text-3 span{
+  margin-right: 73px;
+  display: block;
+  padding: 8px;
+}
+.nav{
+  margin-left: 15%;
+  margin-top: 5%;
+  width: 70%;
+  height: 80px;
+  background: #9B9191;
+}
+.nav-l h3{
+  margin:25px;
+  position: absolute;
+}
+
+
+.tops h3{
+  font-size: 3em;
+  font-family:  'Yeon Sung',cursive;
+  color: #CB5E5E;
+  
+}
+
+.pics{
+  margin-left: 15%;
+  /* margin-top: -45px; */
+  width: 70%;
+  height: 100%;
+  background: #fff;
+  border-style: double;
+  border-width: 12px 0px 20px 0px;
+  border-color:#9B9191;
+
+}
+.pics-f ul{
+  display: inline-flex;
+  margin:51px;
+}
+.pics-f ul li{
+  list-style: none;
+  max-width: 10%;
+  margin:0 130px;
+  cursor:pointer;
+  color: #707070;
+  font-family:  'Yeon Sung',cursive;
+}
+.pic1{
+  max-width: 130%;
+}
+.guarantee-pic{
+  top:205%;
+  left:0%;
+  position: absolute;
+}
+.guarantee-pic ul{
+  max-width: 70%;
+  background: #EBE4E4;
+  display: inline-flex;
+  margin:0px;
+}
+.guarantee-pic ul li{
+  list-style: none;
+  max-width: 30%;
+  margin:0 100px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+.pic2{
+  max-width: 120%;
+  border-right: 20px solid transparent;
+}
+.ribbon{
+  /* position: absolute; */
+  margin-left: 60%
+}
+/* .ribbon-1{
+  width:60px;
+  height: 120px;
+  background: #000;
+} */
+.ribbon-1:before{
+  content:"";
+  position: absolute;
+  border-left: 50px solid #EBE4E4;
+  border-right: 50px solid transparent;
+  border-top: 118px solid #EBE4E4;
+  border-bottom: 117px solid #EBE4E4;
+}
+.ribbon-2{
+  margin-left: 65%;
+}
+.ribbon-2:before{
+  content:"";
+  position: absolute;
+  border-left: 50px solid rgb(253, 247, 247);
+  border-right: 50px solid transparent;
+  border-top: 118px solid rgb(253, 247, 247);
+  border-bottom: 117px solid rgb(253, 247, 247);
+}
+
+.tick{
+  position: absolute;
+  max-width: 5%;
+  margin-left: 360px;
+  margin-top: 12.5%;
+}
+
+.company-bg1{
+  margin-top: 20%;
+  margin-bottom: 2%;
+  width: 100%;
+  height: 100%;
+  background: #9B9191;
+}
+.company-l ul{
+  display: inline-flex;
+  margin:55px;
+  margin-left: -630px;
+}
+.company-l ul li{
+  list-style: none;
+  margin:0 -160px;
+  margin-left: -20px;
+  font-family:  'Yeon Sung',cursive;
+}
+.company-name{
+  font-size: 3em;
+  color: #CB5E5E;
+}
+.company-pic1{
+  max-width: 17%;
+  margin-bottom: 5%;
+  margin-left: -20px;
+}
+.company-pic2{
+  max-width:28%;
+  margin-left: -220px;
+
+}
+.company-ad{
+  margin-top: -10%;
+  margin-left: 60%;
+  position: absolute;
+}
+.company-add{
+  margin-top: -10%;
+  margin-left: 80%;
+  position: absolute;
+}
+.copyr{
+  font-size: 1.5em;
+  margin-top: -30px;
+}
+/* ----------------------------------Box product detail page------------------------------------------- */
+
+.home{
+  max-width: 10%;
+  margin-left: -60%;
+  margin-top: -2%;
+  position: absolute;
+  cursor:pointer;
+}
+.ribbbon-logo{
+  margin-top: -1%;
+  margin-right:70%;
+  font-size: 2em;
+  font-family:  'Yeon Sung',cursive;
+  color: #CB5E5E;
+}
+.ribbon-bg{
+  top:5%;
+  margin-left: 25%;
+  width: 800px;
+  height: 60px;
+  position: absolute;
+  background: #9B9191;
+}
+.ribbon1{
+  margin-left: 10%
+}
+.ribbon1-1:before{
+  content:"";
+  margin-left: 45%;
+  position: absolute;
+  border-left: 30px solid #9B9191;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #9B9191;
+  border-bottom: 30px solid #9B9191;
+}
+
+.product-1{
+  max-width: 5%;
+  margin-top: 10%;
+}
+
+.product-t{
+  font-size: 2em;
+  font-family:  'Yeon Sung',cursive;
+  color: #707070;
+  margin-top: 100px;
+  margin-right: 750px;
+}
+
+.product-bg{
+  margin-left: 15%;
+  /* margin-top: -45px; */
+  width: 70%;
+  height: 100%;
+  background: #fff;
+  /* border-style: double;
+  border-width: 12px 0px 20px 0px;
+  border-color:#9B9191; */
+
+}
+.product-img ul{
+  display: inline-flex;
+  margin:1px;
+}
+.product-img ul li{
+  list-style: none;
+  max-width: 10%;
+  margin:0 130px;
+  margin-top: 10px;
+  cursor:pointer;
+  font-family:  'Yeon Sung',cursive;
+}
+.product-img1{
+  max-width: 170%;
+}
+.product-img2{
+  max-width: 170%;
+}
+.product-img3{
+  max-width: 170%;
+}
+.product-img4{
+  max-width: 170%;
+}
+.product-img5{
+  max-width: 170%;
+}
+.product-img6{
+  max-width: 170%;
+}
+.checkout1{
+  position: absolute;
+  top:280px;
+  left: 710px;
+  color: #EBE4E4;
+  border: 1px;
+  border-radius: 100px;
+  background: #CB5E5E;
+}
+.checkout1 span{
+  display: block;
+  padding: 8px;
+  font-size: 2em;
+}
+
+.checkout2{
+  position: absolute;
+  top:660px;
+  right: 10px;
+  color: #EBE4E4;
+  border: 1px;
+  border-radius: 100px;
+  background: #CB5E5E;
+}
+.checkout2 span{
+  display: block;
+  padding: 8px;
+  font-size: 2em;
+}
+
+.cart1{
+  position: absolute;
+  top:580px;
+  right: 10px;
+  color: #EBE4E4;
+  border: 1px;
+  border-radius: 100px;
+  background: #CB5E5E;
+}
+.cart1 span{
+  display: block;
+  padding: 8px;
+  font-size: 2em;
+}
+.company-bg2{
+  margin-top: 0%;
+  margin-bottom: 2%;
+  width: 100%;
+  height: 100%;
+  background: #9B9191;
+}
+
+/* -----------------------------------Cart page -------------------------------------------- */
+
+.process-bg1{
+  margin-top: -100px;
+  margin-left: 30%;
+  height:60px;
+  width:600px;
+  border-radius: 80px;
+  background: #707070;
+  position: absolute;
+}
+.process-bg2{
+  margin-top: -90px;
+  margin-left: 31%;
+  height:40px;
+  width:570px;
+  border-radius: 80px;
+  background: #b9b2b2;
+  position: absolute;
+}
+.process1{
+  margin-top: -90px;
+  margin-left: 31%;
+  height:40px;
+  width:380px;
+  /* width:190px; */
+  background: #707070;
+  position: absolute;
+}
+.process-n2{
+  margin-top: -88px;
+  margin-left: 42%;
+  position: absolute;
+  font-size: 1.6em;
+  font-family:  'Yeon Sung',cursive;
+}
+
+.cart{
+  margin-top: 20%;
+}
+.cart h3{
+  font-size: 3em;
+  font-family:  'Yeon Sung',cursive;
+  color: #CB5E5E;
+  
+}
+
+.cart-bg{
+  margin-left: 15%;
+  margin-bottom: 3%;
+  width: 70%;
+  height: 90%;
+  background: #fff;
+  border-style: solid;
+  border-width: 3px 0px 3px 0px;
+  border-color:#707070;
+}
+.cart-l ul{
+  display: inline-flex;
+  margin:51px;
+}
+.cart-l ul li{
+  list-style: none;
+  max-width: 15%;
+  margin:0 130px;
+  font-family:  'Yeon Sung',cursive;
+  font-size: 2em;
+}
+.cart-l-1{
+  max-width: 130%;
+}
+.detail{
+  margin-top: -300px;
+  margin-left: 70%;
+  height:80px;
+  width:300px;
+  border-radius: 80px;
+  background: #707070;
+  position: absolute;
+  cursor:pointer;
+}
+.detail-t{
+  margin-top: -380px;
+  margin-left: 74%;
+  color: #EBE4E4;
+  position: absolute;
+  cursor:pointer;
+  font-size: 2em;
+}
+.checkout3{
+  margin-top: -400px;
+  margin-left: 70%;
+  height:80px;
+  width:300px;
+  border-radius: 80px;
+  background: #707070;
+  position: absolute;
+  cursor:pointer;
+}
+.checkout3-t{
+  margin-top: -280px;
+  margin-left: 71%;
+  color: #EBE4E4;
+  position: absolute;
+  cursor:pointer;
+  font-size: 2em;
+}
+.checkout4{
+  margin-top: -6%;
+  margin-left: 32%;
+  height:100px;
+  width:100px;
+  border-radius: 50%;
+  background: #CB5E5E;
+  position: absolute;
+  cursor:pointer;
+}
+.checkout4 span{
+  display: block;
+  padding: 1px;
+  padding-top: 32px;
+  font-size: 20px;
+  color: #EBE4E4;
+}
+/* --------------------------------------sign up page------------------------- */
+.process-ri{
+  margin-top: 90px;
+  margin-left: 100px;
+}
+
+.process-bg1-1{
+  margin-top: 0px;
+  margin-left: 0%;
+  height:60px;
+  width:600px;
+  border-radius: 80px;
+  background: #707070;
+  position: absolute;
+}
+.process-bg2-1{
+  margin-top: 10px;
+  margin-left: 1%;
+  height:40px;
+  width:570px;
+  border-radius: 80px;
+  background: #b9b2b2;
+  position: absolute;
+}
+.process1-1{
+  margin-top: 10px;
+  margin-left: 1%;
+  height:40px;
+  width:190px;
+  /* width:190px; */
+  background: #707070;
+  position: absolute;
+}
+.process-n2-1{
+  margin-top: 12px;
+  margin-left: 3%;
+  position: absolute;
+  font-size: 1.2em;
+  font-family:  'Yeon Sung',cursive;
+}
+
+
+.signup-bg{
+  margin-top: 300px;
+  margin-left: 300px;
+}
+
+.main {
+  background: #fff;
+  width: 60%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em;
+  border-radius: 10px;
+}
+.main h2{
+  color: #fff;
+}
+
+.form-group{
+  color:#707070;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.form-group>label{
+text-align: right;
+padding-right: 20px;
+max-width: 170px;
+flex-grow: 1;
+flex-shrink: 0;
+flex-basis: 120px;
+font-size: 2em;
+}
+.label>span{
+  display: block;
+  font-size: 0.75em;
+  opacity: 0.5;
+}
+.label+* {
+flex-grow:1;
+flex-shrink:0;
+flex-basis: auto;
+}
+
+input, select{
+  padding: 15px;
+  border:0px;
+  border-radius: 30px;
+  background: rgb(236, 235, 235);
+}
+
+
+.ribbon-bg1{
+  top:85%;
+  margin-left: 25%;
+  width: 800px;
+  height: 60px;
+  position: absolute;
+  background: #9B9191;
+}
+.process1-2{
+  margin-top: 10px;
+  margin-left: 1%;
+  height:40px;
+  width:380px;
+  /* width:190px; */
+  background: #707070;
+  position: absolute;
+}
+.process-n2-2{
+  margin-top: 10px;
+  margin-left:2%;
+  position: absolute;
+  font-size: 2em;
+  font-family:  'Yeon Sung',cursive;
+}
+
+.cart-bt1{
+  margin-top: 10%;
+}
+.checkout5{
+  margin-top: -13%;
+  margin-left: 32%;
+  height:100px;
+  width:100px;
+  border-radius: 50%;
+  background: #CB5E5E;
+  position: absolute;
+  cursor:pointer;
+}
+.checkout5 span{
+  display: block;
+  padding: 1px;
+  padding-top: 32px;
+  font-size: 20px;
+  color: #EBE4E4;
+}
+
+/* -------------------------------payment pages------------------------- */
+
+
+.process1-3{
+  margin-top: 10px;
+  margin-left: 1%;
+  height:40px;
+  width:570px;
+  /* width:190px; */
+  background: #707070;
+  position: absolute;
+}
+.process-n2-3{
+  margin-top: 9px;
+  margin-left:50%;
+  position: absolute;
+  font-size: 2em;
+  font-family:  'Yeon Sung',cursive;
+}
+
+.signup-bg1{
+  margin-top: 300px;
+  margin-left: 30%;
+  width: 40%;
+  height: 90%;
+  background: #fff;
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color:#707070;
+}
+.border{
+  border-radius: 10px;
+  width: 200px;
+}
+.payment-1{
+  font-size: 2em;
+  font-family:  'Yeon Sung',cursive;
+  color: #707070;
+  margin-left: 10px;
+}
+.signup-bg2{
+  margin-top: 10px;
+  margin-left: 30%;
+  margin-bottom: 2%;
+  width: 40%;
+  height: 90%;
+  background: #fff;
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color:#707070;
+}
+.date{
+  font-size: 1.7em;
+  color: #707070;
+}
+.option{
+  font-size: 2em;
+  color: #707070;
+}
+.option-1{
+  font-size: 2em;
+  color: #707070;
+}
+
+/* --------------------------------------- payment  option page------------------------- */
+
+.signup-bg3{
+  margin-top: 300px;
+  margin-left: 30%;
+  margin-bottom: 2%;
+  width: 40%;
+  height: 90%;
+  background: #fff;
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color:#707070;
+}
+.option-2{
+  font-size: 1em;
+  color: #707070;
+}
+.option-3{
+  font-size: 1.3em;
+  color: #707070;
+}
+
+/* ------------------------------credit card infor----------------------------------------- */
+
+.signup-bg4{
+  margin-top: 200px;
+  margin-left: 30%;
+  margin-bottom: 2%;
+  width: 40%;
+  height: 90%;
+  background: #fff;
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color:#707070;
+}
+.option-4{
+  font-size: 2em;
+  color: #707070;
+}
+.option-5{
+  font-size: 30px;
+  width: 800px;
+  color: #707070;
+}
+
+.Landing-bt{
+  top: 720px;
+  right: 25%;
+  position: absolute;
+  color: #EBE4E4;
+  border: 3px;
+  height: 65px;
+  width: 235px;
+  border-radius: 40px;
+  background: #CB5E5E;
+}
+.Landing-bt span{
+  display: block;
+  padding: 2px;
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+/* -------------------------membership ending point------------------------- */
+
+.welcoming1{
+  font-size: 2.5em;
+  font-family:  'Yeon Sung',cursive;
+  color: #CB5E5E;
+}
+.welcoming2{
+  font-size: 2em;
+  font-family:  'Yeon Sung',cursive;
+  color: #707070;
+}
+
+
+.redirect-bg{
+  margin-left: 20%;
+  margin-top: 295px;
+  width: 70%;
+  height: 100%;
+  background: #fff;
+
+
+}
+.redirect-i ul{
+  display: inline-flex;
+  margin:1px;
+}
+.redirect-i ul li{
+  list-style: none;
+  max-width: 12%;
+  margin:0 10px;
+  margin-top: 10px;
+  cursor:pointer;
+  font-family:  'Yeon Sung',cursive;
+}
+.redirect-img{
+  max-width: 100%;
+}
+.company-bg3{
+  margin-top: 15%;
+  margin-bottom: 2%;
+  width: 100%;
+  height: 100%;
+  background: #9B9191;
+}
+
+
+/* -----------------------------------------------------------animation ------------------------------- */
+
+.signup-bt1:hover{
+  transform: translateY(-2px);
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, .15);
+}
+.signup-bt2:hover{
+  transform: translateY(-2px);
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, .15);
+}
+.signup-bt3:hover{
+  transform: translateY(-2px);
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, .15);
+}
+.signup-bt4:hover{
+  transform: translateY(-2px);
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, .15);
+}
+.icon-1:hover{
+  transform: translateY(-2px);
+  box-shadow: 12px 4px 80px rgba(0, 0, 0, .15);
+}
+.home:hover{
+  transform: translateY(-2px);
+}
+.icon-2:hover{
+  border-radius: 50%;
+  box-shadow: 0px 0px 100px #000;
+}
